@@ -1,0 +1,64 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'mout/lang' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink /usr/bin/node
+5 warn package.json test1@0.0.0 No description
+6 warn package.json test1@0.0.0 No repository field.
+7 warn package.json test1@0.0.0 No README data
+8 warn package.json karma-chrome-launcher@0.1.5 No README data
+9 warn package.json karma-phantomjs-launcher@0.1.4 No README data
+10 verbose readDependencies using package.json deps
+11 verbose cache add [ 'mout/lang', null ]
+12 verbose cache add name=undefined spec="mout/lang" args=["mout/lang",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'mout/lang',
+13 verbose parsed url   path: 'mout/lang',
+13 verbose parsed url   href: 'mout/lang' }
+14 silly lockFile 5224b94a-mout-lang mout/lang
+15 verbose lock mout/lang /home/utkarsh/.npm/5224b94a-mout-lang.lock
+16 info maybeGithub Attempting mout/lang from git://github.com/mout/lang
+17 silly lockFile 408c9481-git-github-com-mout-lang git://github.com/mout/lang
+18 verbose lock git://github.com/mout/lang /home/utkarsh/.npm/408c9481-git-github-com-mout-lang.lock
+19 verbose addRemoteGit [ 'git://github.com/mout/lang', 'master' ]
+20 verbose git clone git://github.com/mout/lang Cloning into bare repository '/home/utkarsh/.npm/_git-remotes/git-github-com-mout-lang-408c9481'...
+20 verbose git clone git://github.com/mout/lang fatal: remote error:
+20 verbose git clone git://github.com/mout/lang   Repository not found.
+21 silly lockFile 408c9481-git-github-com-mout-lang git://github.com/mout/lang
+22 silly lockFile 408c9481-git-github-com-mout-lang git://github.com/mout/lang
+23 info maybeGithub Attempting mout/lang from git+ssh://git@github.com:mout/lang
+24 silly lockFile 2c2bb040-git-github-com-mout-lang git@github.com:mout/lang
+25 verbose lock git@github.com:mout/lang /home/utkarsh/.npm/2c2bb040-git-github-com-mout-lang.lock
+26 verbose addRemoteGit [ 'git@github.com:mout/lang', 'master' ]
+27 error git clone git@github.com:mout/lang Cloning into bare repository '/home/utkarsh/.npm/_git-remotes/git-github-com-mout-lang-2c2bb040'...
+27 error git clone git@github.com:mout/lang Permission denied (publickey).
+27 error git clone git@github.com:mout/lang fatal: Could not read from remote repository.
+27 error git clone git@github.com:mout/lang
+27 error git clone git@github.com:mout/lang Please make sure you have the correct access rights
+27 error git clone git@github.com:mout/lang and the repository exists.
+28 silly lockFile 2c2bb040-git-github-com-mout-lang git@github.com:mout/lang
+29 silly lockFile 2c2bb040-git-github-com-mout-lang git@github.com:mout/lang
+30 silly lockFile 5224b94a-mout-lang mout/lang
+31 silly lockFile 5224b94a-mout-lang mout/lang
+32 error addLocal Could not install mout/lang
+33 error Error: ENOENT, stat 'mout/lang'
+34 error If you need help, you may report this *entire* log,
+34 error including the npm and node versions, at:
+34 error     <http://github.com/npm/npm/issues>
+35 error System Linux 3.13.0-39-generic
+36 error command "/usr/bin/node" "/usr/bin/npm" "install" "mout/lang"
+37 error cwd /home/utkarsh/angular_dev/test
+38 error node -v v0.10.33
+39 error npm -v 1.4.28
+40 error path mout/lang
+41 error code ENOENT
+42 error errno 34
+43 verbose exit [ 34, true ]
